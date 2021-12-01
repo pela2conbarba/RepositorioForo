@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+
+
+</head>
+<body>
+	<img src="{% static 'img/logoods.png' %}" class="imagen-menu">
+
+
+	<div class="menu">ACA VA EL MENU</div>
+
+	{% block contenido %}
+
+	{% endblock contenido %}
+
+</body>
+</html>
