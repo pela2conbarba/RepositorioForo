@@ -25,5 +25,7 @@ urlpatterns = [
     #PATH QUE APUNTAN A APPS
 
 
-    path('ods/', include('apps.ods.urls'))
+    path('ods/', include('apps.ods.urls')),
+
+    path('', include('apps.blog.urls'))
 ]

@@ -3,14 +3,69 @@
 
 {% block contenido %}
 
+	<body class="principal">		
+<!--	<a href="{% url 'ods:listar_ods' %}">Ir a los 17 ODS</a>
+	<br>
+	<br>
+-->
+
+	<nav>
+		<ul>
+			<li>
+				<a href="ods/">
+					Inicio
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/watch?v=P6hqfexZby0">
+					1-Pobreza
+				</a>
+			</li>
+			<li>
+				<a href="index.html">
+					2-Hambre
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="clearfix"></div>
+
+	<section id="content">
+
+		<article class="article">
+			<h2 class="subtitulo">Pobreza</h2>
+			<p>Breve Descripcion</p>
+		</article>
+
+		<article class="article">
+			<h2 class="subtitulo">Hambre</h2>
+			<p>Breve Descripcion</p>
+		</article>
+		<!--
+		<article class="article">
+			<h2 class="subtitulo">3 ODS</h2>
+			<p>Breve Descripcion</p>
+		</article>
+
+		<article class="article">
+			<h2 class="subtitulo">4 ODS</h2>
+			<p>Breve Descripcion</p>
+		</article>
+		-->
+	</section>
+		
+	<aside>
+		<h2>Barra lateral</h2>
+		<form>
+			<input type="text">
+			<input type="submit" value="Buscar"  />
+		</form>
+	</body>
+	</aside>
+	<div class="clearfix"></div>
+	<footer>
+		Grupo 9 WEB &copy; 2021
+	</footer>
 	
-	Bienvenidos a las 17 ODS
-
-
-	<br>
-	<br>
-
-
-	<a href="{% url 'ods:listar_ods' %}">Ir a los 17 ODS</a>
 
 {% endblock contenido %}

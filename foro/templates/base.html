@@ -2,21 +2,22 @@
 
 <!DOCTYPE html>
 <html>
-<head>
+<header>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-
+	<title>17 ODS</title>
+	<!--<h1>Seleccion de cada uno de los 17 ods</h1>
+	<h1><a href="{% url 'ods:listar_ods' %}">Pobreza</a></h1>
+	<h1><a href="{% url 'ods:listar_ods' %}">Hambre</a></h1>
+	-->
 	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-
-
-</head>
-<body>
 	<img src="{% static 'img/logoods.png' %}" class="imagen-menu">
+</header>
+<body>
+	
 
-
-	<div class="menu">ACA VA EL MENU</div>
-
+	
+	<div class="menu">Los 17 Objetivos de Desarrollo Sostenible</div>
 	{% block contenido %}
 
 	{% endblock contenido %}
